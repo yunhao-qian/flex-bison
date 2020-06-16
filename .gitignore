@@ -1,3 +1,4 @@
+.vscode/
 bin/
 lex.yy.c
 *.lex.c
