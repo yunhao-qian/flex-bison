@@ -1,0 +1,4 @@
+It was the best of the times.
+#include "src2.txt"
+It was the epoch of belief.
+It was the epoch of incredulity.

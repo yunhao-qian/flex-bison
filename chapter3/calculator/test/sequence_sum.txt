@@ -1,0 +1,17 @@
+// solve for the sum from 50 to 200
+beg := 50;
+end := 200;
+
+// add the numbers one by one
+sum := 0;
+i := beg;
+while i < end {
+    sum := sum + i;
+    i := i + 1;
+}
+print(sum);
+
+// simpler approach: use formula
+n := end - beg + 1;
+sum := (beg + end) * n / 2;
+print(sum);

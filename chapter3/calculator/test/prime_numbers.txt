@@ -1,0 +1,22 @@
+// solve for prime numbers below 500
+n_max := 500;
+
+// start with the smallest prime number
+number := 2;
+while number < n_max {
+    factor := 2;
+    f_max := floor(sqrt(factor) + 1);
+    is_prime := 1;
+    while is_prime & factor < f_max {
+        quotient := number / factor;
+        // prime number can only be divided by 1 and itself
+        if quotient = round(quotient) {
+            is_prime := 0;
+        }
+        factor := factor + 1;
+    }
+    if is_prime {
+        print(number);
+    }
+    number := number + 1;
+}

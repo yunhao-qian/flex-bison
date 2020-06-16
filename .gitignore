@@ -1,0 +1,6 @@
+bin/
+lex.yy.c
+*.lex.c
+*.tab.h
+*.tab.c
+a.out

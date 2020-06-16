@@ -1,0 +1,3 @@
+It was the worst of the times.
+#include <src3.txt>
+It was the age of foolishness.
